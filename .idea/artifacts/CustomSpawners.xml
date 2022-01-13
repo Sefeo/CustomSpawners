@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CustomSpawners">
+    <output-path>$USER_HOME$/Desktop/MinecraftProjects/NewTest/plugins</output-path>
+    <root id="archive" name="CustomSpawners.jar">
+      <element id="module-output" name="CustomSpawners" />
+      <element id="library" level="project" name="spigot-cristalix" />
+    </root>
+  </artifact>
+</component>

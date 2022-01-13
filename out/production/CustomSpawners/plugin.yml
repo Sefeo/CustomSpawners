@@ -1,0 +1,12 @@
+main: CustomSpawners.Main
+name: CustomSpawners
+version: 1.0
+commands:
+  spawnerCustom:
+    usage: /spawnerCustom <type> <delay> <mobsCount>
+    description: Gives a custom spawner
+    aliases: [sc, spawnerC]
+  spawner:
+    usage: /spawner <type> <level>
+    description: Gives a spawner
+    aliases: [sp]

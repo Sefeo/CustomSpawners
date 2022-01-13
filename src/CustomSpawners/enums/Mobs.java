@@ -1,0 +1,87 @@
+package CustomSpawners.enums;
+
+public class Mobs {
+    public enum MobsTranslated {
+        AXOLOTL("Аксолотль"),
+        BAT("Летучая мышь"),
+        CAT("Кот"),
+        CHICKEN("Курица"),
+        COD("Треска"),
+        COW("Корова"),
+        DONKEY("Осёл"),
+        FOX("Лиса"),
+        GLOW_SQUID("Светящийся спрут"),
+        HORSE("Лошадь"),
+        MOOSHROOM("Грибная корова"),
+        MULE("Мул"),
+        OCELOT("Оцелот"),
+        PARROT("Попугай"),
+        PIG("Свинья"),
+        POLAR_BEAR("Белый медведь"),
+        PUFFERFISH("Рыба фугу"),
+        SALMON("Лосось"),
+        SHEEP("Овца"),
+        SKELETON("Скелет"),
+        SNOW_GOLEM("Снежный голем"),
+        SQUID("Спрут"),
+        STRIDER("Страйдер"),
+        TROPICAL_FISH("Тропическая рыба"),
+        TURTLE("Черепаха"),
+        VILLAGER("Житель"),
+        BEE("Пчела"),
+        CAVE_SPIDER("Пещерный паук"),
+        DOLPHIN("Дельфин"),
+        ENDERMAN("Странник края"),
+        GOAT("Коза"),
+        IRON_GOLEM("Железный голем"),
+        LLAMA("Лама"),
+        PIGLIN("Пиглин"),
+        WANDERING_TRADER("Странствующий житель"),
+        PANDA("Панда"),
+        SPIDER("Паук"),
+        TRADER_LLAMA("Лама-торговец"),
+        WOLF("Волк"),
+        ZOMBIFIED_PIGLIN("Зомбифицированный пиглин"),
+        RABBIT("Кролик"),
+        BLAZE("Ифрит"),
+        CHICKEN_JOCKEY("Зомби-наездник"),
+        CREEPER("Крипер"),
+        DROWNED("Утопленник"),
+        ELDER_GUARDIAN("Древний страж"),
+        ENDERMITE("Чешуйница края"),
+        EVOKER("Вызыватель"),
+        GHAST("Гаст"),
+        GUARDIAN("Страж"),
+        HOGLIN("Хоглин"),
+        HUSK("Кадавр"),
+        MAGMA_CUBE("Лавовый куб"),
+        PHANTOM("Фантом"),
+        PIGLIN_BRUTE("Жестокий пиглин"),
+        PILLAGER("Разбойник"),
+        RAVAGER("Разоритель"),
+        RAVAGER_JOCKEY("Разоритель-наездник"),
+        SHULKER("Шалкер"),
+        SILVERFISH("Чешуйница"),
+        SKELETON_HORSEMAN("Скелет-всадник"),
+        SLIME("Слизень"),
+        SPIDER_JOCKEY("Скелет-наездник"),
+        STRAY("Зимогор"),
+        VEX("Досаждатель"),
+        VINDICATOR("Поборник"),
+        WITCH("Ведьма"),
+        WITHER_SKELETON("Скелет-иссушитель"),
+        ZOGLIN("Зоглин"),
+        ZOMBIE("Зомби"),
+        ENDER_DRAGON("Дракон края"),
+        WITHER("Иссушитель");
+
+        String translation;
+
+        MobsTranslated(String translation) {
+            this.translation = translation;
+        }
+        public String toString() {
+            return this.translation;
+        }
+    }
+}
